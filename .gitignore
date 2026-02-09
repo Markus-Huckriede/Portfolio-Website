@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+dist/
+
+# Lokale Dateien 
+*.png
+*.jpg
+*.jpeg
+
+# Environment
+.env
+
+# IDE
+.vscode/
