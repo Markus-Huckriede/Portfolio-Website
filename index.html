@@ -1,228 +1,103 @@
 <!doctype html>
 <html lang="de">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#0b1016" />
-    <meta
-      name="description"
-      content="Portfolio von Markus Huckriede: Webentwicklung, moderne Technologien und eigene digitale Projekte."
-    />
-    <title>Markus Huckriede — Webentwicklung & digitale Projekte</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafafa">
+  <meta name="description" content="Markus Huckriede – Web Development. Technologien, Projekte und Kontakt.">
+  <title>Markus Huckriede | Web Development</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#start">Markus Huckriede</a>
+      <nav aria-label="Navigation">
+        <a href="#technologien">Technologien</a>
+        <a href="#projekte">Projekte</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+    </div>
+  </header>
 
-  <body>
-    <a class="skip-link" href="#main">Zum Inhalt springen</a>
-
-    <header class="site-header">
-      <div class="shell header-inner">
-        <a class="wordmark" href="#start" aria-label="Markus Huckriede – zur Startseite">
-          <span class="wordmark-symbol" aria-hidden="true">mh<span>.</span></span>
-          <span class="wordmark-text">Markus Huckriede</span>
-        </a>
-        <nav class="primary-nav" aria-label="Hauptnavigation">
-          <a href="#ueber-mich">Über mich</a>
-          <a href="#technologien">Tech-Stack</a>
-          <a href="#projekte">Projekte</a>
-          <a class="nav-cta" href="#kontakt">Kontakt <span aria-hidden="true">↗</span></a>
-        </nav>
+  <main id="inhalt">
+    <section class="hero container" id="start" aria-labelledby="site-title">
+      <div class="hero-copy">
+        <h1 id="site-title">Markus Huckriede</h1>
+        <p>Web Development</p>
       </div>
-    </header>
+      <img class="portrait" src="1756459099563.jpeg" alt="Porträt von Markus Huckriede" width="800" height="800" fetchpriority="high">
+    </section>
 
-    <main id="main">
-      <section class="hero section" id="start" aria-labelledby="hero-title">
-        <div class="hero-glow" aria-hidden="true"></div>
-        <div class="shell hero-grid">
-          <div class="hero-copy">
-            <p class="eyebrow"><span class="eyebrow-dash" aria-hidden="true"></span> WILLKOMMEN IN MEINEM PORTFOLIO</p>
-            <h1 id="hero-title">Hi, ich bin <span>Markus.</span></h1>
-            <p class="hero-subheading">Webentwicklung. Design. <span>Neue Ideen.</span></p>
-            <p class="hero-description">
-              Ich entwickle digitale Projekte, entdecke neue Technologien und
-              mag Websites, die nicht nur gut aussehen, sondern sich auch gut anfühlen.
-            </p>
-            <div class="hero-actions">
-              <a class="button button-primary" href="#projekte">Projekte entdecken <span aria-hidden="true">↗</span></a>
-              <a class="button button-ghost" href="#technologien">Mein Tech-Stack <span aria-hidden="true">↓</span></a>
-            </div>
-            <div class="hero-meta">
-              <span class="meta-dot" aria-hidden="true"></span>
-              <span>Entdecken. Entwickeln. Dazulernen.</span>
-            </div>
-          </div>
-          <div class="hero-visual">
-            <div class="photo-halo" aria-hidden="true"></div>
-            <div class="portrait-frame">
-              <img
-                src="1756459099563.jpeg"
-                alt="Porträt von Markus Huckriede"
-                width="500"
-                height="620"
-                fetchpriority="high"
-              />
-              <span class="portrait-corner portrait-corner-top" aria-hidden="true"></span>
-              <span class="portrait-corner portrait-corner-bottom" aria-hidden="true"></span>
-            </div>
-            <div class="floating-note" aria-hidden="true">
-              <span class="note-icon">✳</span>
-              <span>create<span class="note-accent">()</span><br /><small>learn · build · repeat</small></span>
-            </div>
-          </div>
+    <section class="section container" id="technologien" aria-labelledby="tech-heading">
+      <h2 id="tech-heading">Technologien</h2>
+        <div class="tech-row">
+          <h3>Frontend &amp; Design</h3>
+          <ul class="tech-icons" aria-label="Frontend &amp; Design">
+            <li><span class="skill" tabindex="0" aria-label="HTML"><img src="https://skillicons.dev/icons?i=html&amp;theme=light" alt="" width="42" height="42" loading="lazy"><span class="skill-name" aria-hidden="true">HTML</span></span></li>
+            <li><span class="skill" tabindex="0" aria-label="CSS"><img src="https://skillicons.dev/icons?i=css&amp;theme=light" alt="" width="42" height="42" loading="lazy"><span class="skill-name" aria-hidden="true">CSS</span></span></li>
+            <li><span class="skill" tabindex="0" aria-label="Tailwind CSS"><img src="https://skillicons.dev/icons?i=tailwind&amp;theme=light" alt="" width="42" height="42" loading="lazy"><span class="skill-name" aria-hidden="true">Tailwind CSS</span></span></li>
+            <li><span class="skill" tabindex="0" aria-label="JavaScript"><img src="https://skillicons.dev/icons?i=js&amp;theme=light" alt="" width="42" height="42" loading="lazy"><span class="skill-name" aria-hidden="true">JavaScript</span></span></li>
+            <li><span class="skill" tabindex="0" aria-label="TypeScript"><img src="https://skillicons.dev/icons?i=ts&amp;theme=light" alt="" width="42" height="42" loading="lazy"><span class="skill-name" aria-hidden="true">TypeScript</span></span></li>
+            <li><span class="skill" tabindex="0" aria-label="React"><img src="https://skillicons.dev/icons?i=react&amp;theme=light" alt="" width="42" height="42" loading="lazy"><span class="skill-name" aria-hidden="true">React</span></span></li>
+            <li><span class="skill" tabindex="0" aria-label="Next.js"><img src="https://skillicons.dev/icons?i=nextjs&amp;theme=light" alt="" width="42" height="42" loading="lazy"><span class="skill-name" aria-hidden="true">Next.js</span></span></li>
+            <li><span class="skill" tabindex="0" aria-label="Vite"><img src="https://skillicons.dev/icons?i=vite&amp;theme=light" alt="" width="42" height="42" loading="lazy"><span class="skill-name" aria-hidden="true">Vite</span></span></li>
+            <li><span class="skill" tabindex="0" aria-label="Figma"><img src="https://skillicons.dev/icons?i=figma&amp;theme=light" alt="" width="42" height="42" loading="lazy"><span class="skill-name" aria-hidden="true">Figma</span></span></li>
+          </ul>
         </div>
-        <div class="shell hero-bottom">
-          <span>SCROLL TO EXPLORE</span>
-          <span class="hero-line" aria-hidden="true"></span>
-          <span>01 / 04</span>
+        <div class="tech-row">
+          <h3>Mobile</h3>
+          <ul class="tech-icons" aria-label="Mobile">
+            <li><span class="skill" tabindex="0" aria-label="Flutter"><img src="https://skillicons.dev/icons?i=flutter&amp;theme=light" alt="" width="42" height="42" loading="lazy"><span class="skill-name" aria-hidden="true">Flutter</span></span></li>
+            <li><span class="skill" tabindex="0" aria-label="Dart"><img src="https://skillicons.dev/icons?i=dart&amp;theme=light" alt="" width="42" height="42" loading="lazy"><span class="skill-name" aria-hidden="true">Dart</span></span></li>
+          </ul>
         </div>
-      </section>
+        <div class="tech-row">
+          <h3>Backend &amp; Datenbanken</h3>
+          <ul class="tech-icons" aria-label="Backend &amp; Datenbanken">
+            <li><span class="skill" tabindex="0" aria-label="Node.js"><img src="https://skillicons.dev/icons?i=nodejs&amp;theme=light" alt="" width="42" height="42" loading="lazy"><span class="skill-name" aria-hidden="true">Node.js</span></span></li>
+            <li><span class="skill" tabindex="0" aria-label="Express"><img src="https://skillicons.dev/icons?i=express&amp;theme=light" alt="" width="42" height="42" loading="lazy"><span class="skill-name" aria-hidden="true">Express</span></span></li>
+            <li><span class="skill" tabindex="0" aria-label="Python"><img src="https://skillicons.dev/icons?i=py&amp;theme=light" alt="" width="42" height="42" loading="lazy"><span class="skill-name" aria-hidden="true">Python</span></span></li>
+            <li><span class="skill" tabindex="0" aria-label="Flask"><img src="https://skillicons.dev/icons?i=flask&amp;theme=light" alt="" width="42" height="42" loading="lazy"><span class="skill-name" aria-hidden="true">Flask</span></span></li>
+            <li><span class="skill" tabindex="0" aria-label="MySQL"><img src="https://skillicons.dev/icons?i=mysql&amp;theme=light" alt="" width="42" height="42" loading="lazy"><span class="skill-name" aria-hidden="true">MySQL</span></span></li>
+            <li><span class="skill" tabindex="0" aria-label="SQLite"><img src="https://skillicons.dev/icons?i=sqlite&amp;theme=light" alt="" width="42" height="42" loading="lazy"><span class="skill-name" aria-hidden="true">SQLite</span></span></li>
+          </ul>
+        </div>
+        <div class="tech-row">
+          <h3>Tools &amp; Deployment</h3>
+          <ul class="tech-icons" aria-label="Tools &amp; Deployment">
+            <li><span class="skill" tabindex="0" aria-label="Git"><img src="https://skillicons.dev/icons?i=git&amp;theme=light" alt="" width="42" height="42" loading="lazy"><span class="skill-name" aria-hidden="true">Git</span></span></li>
+            <li><span class="skill" tabindex="0" aria-label="Postman"><img src="https://skillicons.dev/icons?i=postman&amp;theme=light" alt="" width="42" height="42" loading="lazy"><span class="skill-name" aria-hidden="true">Postman</span></span></li>
+            <li><span class="skill" tabindex="0" aria-label="Cloudflare"><img src="https://skillicons.dev/icons?i=cloudflare&amp;theme=light" alt="" width="42" height="42" loading="lazy"><span class="skill-name" aria-hidden="true">Cloudflare</span></span></li>
+          </ul>
+        </div>
+    </section>
 
-      <section class="section about-section" id="ueber-mich" aria-labelledby="about-title">
-        <div class="shell about-grid">
-          <div class="section-intro">
-            <p class="eyebrow"><span class="eyebrow-dash" aria-hidden="true"></span> 01 / ÜBER MICH</p>
-            <h2 id="about-title">Neugier trifft <span class="muted-title">Kreativität.</span></h2>
-          </div>
-          <div class="about-content">
-            <p class="about-lead">Mich begeistert, was entsteht, wenn Design und Technologie zusammenkommen.</p>
-            <p>
-              Von der ersten Idee über das Interface bis zur Umsetzung: Ich beschäftige
-              mich mit moderner Webentwicklung und probiere gerne neue Werkzeuge und
-              Ansätze aus. Hier findest du meine Projekte und die Technologien, mit denen
-              ich arbeite.
-            </p>
-            <a class="text-link" href="#technologien">Technologien entdecken <span aria-hidden="true">↗</span></a>
-          </div>
+    <section class="section container" id="projekte" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projekte</h2>
+      <article class="project">
+        <div class="project-copy">
+          <h3>Digital Nomad Map</h3>
+          <p>Karte für digitale Nomaden.</p>
+          <a class="text-link" href="https://www.digital-nomad-maps.de/" target="_blank" rel="noopener noreferrer">Projekt ansehen <span aria-hidden="true">↗</span></a>
         </div>
-      </section>
+        <img src="digital-nomad-map.png" alt="Vorschau von Digital Nomad Map" width="900" height="640" loading="lazy">
+      </article>
+    </section>
 
-      <section class="section stack-section" id="technologien" aria-labelledby="stack-title">
-        <div class="shell">
-          <div class="section-header">
-            <div>
-              <p class="eyebrow"><span class="eyebrow-dash" aria-hidden="true"></span> 02 / MEIN TOOLKIT</p>
-              <h2 id="stack-title">Mein <span class="accent-title">Tech-Stack.</span></h2>
-            </div>
-            <p class="section-caption">Von Frontend und Mobile bis Backend und Deployment. Fahre über ein Icon, um den Namen zu sehen.</p>
-          </div>
-          <div class="stack-grid">
-            <article class="stack-panel stack-panel-frontend">
-              <div class="panel-heading">
-                <span class="panel-index">01</span>
-                <div><h3>Frontend &amp; Design</h3><p>Interfaces &amp; Gestaltung</p></div>
-                <span class="panel-mark" aria-hidden="true">↗</span>
-              </div>
-              <ul class="skills" aria-label="Frontend und Design">
-                <li><span class="skill" tabindex="0" aria-label="HTML"><img src="https://skillicons.dev/icons?i=html&amp;theme=dark" alt="" width="46" height="46" loading="lazy" /><span class="skill-tooltip" aria-hidden="true">HTML</span></span></li>
-                <li><span class="skill" tabindex="0" aria-label="CSS"><img src="https://skillicons.dev/icons?i=css&amp;theme=dark" alt="" width="46" height="46" loading="lazy" /><span class="skill-tooltip" aria-hidden="true">CSS</span></span></li>
-                <li><span class="skill" tabindex="0" aria-label="Tailwind CSS"><img src="https://skillicons.dev/icons?i=tailwind&amp;theme=dark" alt="" width="46" height="46" loading="lazy" /><span class="skill-tooltip" aria-hidden="true">Tailwind CSS</span></span></li>
-                <li><span class="skill" tabindex="0" aria-label="JavaScript"><img src="https://skillicons.dev/icons?i=js&amp;theme=dark" alt="" width="46" height="46" loading="lazy" /><span class="skill-tooltip" aria-hidden="true">JavaScript</span></span></li>
-                <li><span class="skill" tabindex="0" aria-label="TypeScript"><img src="https://skillicons.dev/icons?i=ts&amp;theme=dark" alt="" width="46" height="46" loading="lazy" /><span class="skill-tooltip" aria-hidden="true">TypeScript</span></span></li>
-                <li><span class="skill" tabindex="0" aria-label="React"><img src="https://skillicons.dev/icons?i=react&amp;theme=dark" alt="" width="46" height="46" loading="lazy" /><span class="skill-tooltip" aria-hidden="true">React</span></span></li>
-                <li><span class="skill" tabindex="0" aria-label="Next.js"><img src="https://skillicons.dev/icons?i=nextjs&amp;theme=dark" alt="" width="46" height="46" loading="lazy" /><span class="skill-tooltip" aria-hidden="true">Next.js</span></span></li>
-                <li><span class="skill" tabindex="0" aria-label="Vite"><img src="https://skillicons.dev/icons?i=vite&amp;theme=dark" alt="" width="46" height="46" loading="lazy" /><span class="skill-tooltip" aria-hidden="true">Vite</span></span></li>
-                <li><span class="skill" tabindex="0" aria-label="Figma"><img src="https://skillicons.dev/icons?i=figma&amp;theme=dark" alt="" width="46" height="46" loading="lazy" /><span class="skill-tooltip" aria-hidden="true">Figma</span></span></li>
-              </ul>
-            </article>
-            <article class="stack-panel">
-              <div class="panel-heading">
-                <span class="panel-index">02</span>
-                <div><h3>Mobile</h3><p>Apps &amp; plattformübergreifende Entwicklung</p></div>
-                <span class="panel-mark" aria-hidden="true">↗</span>
-              </div>
-              <ul class="skills" aria-label="Mobile">
-                <li><span class="skill" tabindex="0" aria-label="Flutter"><img src="https://skillicons.dev/icons?i=flutter&amp;theme=dark" alt="" width="46" height="46" loading="lazy" /><span class="skill-tooltip" aria-hidden="true">Flutter</span></span></li>
-                <li><span class="skill" tabindex="0" aria-label="Dart"><img src="https://skillicons.dev/icons?i=dart&amp;theme=dark" alt="" width="46" height="46" loading="lazy" /><span class="skill-tooltip" aria-hidden="true">Dart</span></span></li>
-              </ul>
-            </article>
-            <article class="stack-panel">
-              <div class="panel-heading">
-                <span class="panel-index">03</span>
-                <div><h3>Backend &amp; Datenbanken</h3><p>Logik, APIs &amp; Daten</p></div>
-                <span class="panel-mark" aria-hidden="true">↗</span>
-              </div>
-              <ul class="skills" aria-label="Backend und Datenbanken">
-                <li><span class="skill" tabindex="0" aria-label="Node.js"><img src="https://skillicons.dev/icons?i=nodejs&amp;theme=dark" alt="" width="46" height="46" loading="lazy" /><span class="skill-tooltip" aria-hidden="true">Node.js</span></span></li>
-                <li><span class="skill" tabindex="0" aria-label="Express"><img src="https://skillicons.dev/icons?i=express&amp;theme=dark" alt="" width="46" height="46" loading="lazy" /><span class="skill-tooltip" aria-hidden="true">Express</span></span></li>
-                <li><span class="skill" tabindex="0" aria-label="Python"><img src="https://skillicons.dev/icons?i=py&amp;theme=dark" alt="" width="46" height="46" loading="lazy" /><span class="skill-tooltip" aria-hidden="true">Python</span></span></li>
-                <li><span class="skill" tabindex="0" aria-label="Flask"><img src="https://skillicons.dev/icons?i=flask&amp;theme=dark" alt="" width="46" height="46" loading="lazy" /><span class="skill-tooltip" aria-hidden="true">Flask</span></span></li>
-                <li><span class="skill" tabindex="0" aria-label="MySQL"><img src="https://skillicons.dev/icons?i=mysql&amp;theme=dark" alt="" width="46" height="46" loading="lazy" /><span class="skill-tooltip" aria-hidden="true">MySQL</span></span></li>
-                <li><span class="skill" tabindex="0" aria-label="SQLite"><img src="https://skillicons.dev/icons?i=sqlite&amp;theme=dark" alt="" width="46" height="46" loading="lazy" /><span class="skill-tooltip" aria-hidden="true">SQLite</span></span></li>
-              </ul>
-            </article>
-            <article class="stack-panel">
-              <div class="panel-heading">
-                <span class="panel-index">04</span>
-                <div><h3>Tools &amp; Deployment</h3><p>Workflow &amp; Infrastruktur</p></div>
-                <span class="panel-mark" aria-hidden="true">↗</span>
-              </div>
-              <ul class="skills" aria-label="Tools und Deployment">
-                <li><span class="skill" tabindex="0" aria-label="Git"><img src="https://skillicons.dev/icons?i=git&amp;theme=dark" alt="" width="46" height="46" loading="lazy" /><span class="skill-tooltip" aria-hidden="true">Git</span></span></li>
-                <li><span class="skill" tabindex="0" aria-label="Postman"><img src="https://skillicons.dev/icons?i=postman&amp;theme=dark" alt="" width="46" height="46" loading="lazy" /><span class="skill-tooltip" aria-hidden="true">Postman</span></span></li>
-                <li><span class="skill" tabindex="0" aria-label="Cloudflare"><img src="https://skillicons.dev/icons?i=cloudflare&amp;theme=dark" alt="" width="46" height="46" loading="lazy" /><span class="skill-tooltip" aria-hidden="true">Cloudflare</span></span></li>
-              </ul>
-            </article>
-          </div>
-          <p class="stack-note">Die Icons entsprechen der Technologieübersicht auf meinem GitHub-Profil.</p>
-        </div>
-      </section>
-
-      <section class="section projects-section" id="projekte" aria-labelledby="projects-title">
-        <div class="shell">
-          <div class="section-header">
-            <div>
-              <p class="eyebrow"><span class="eyebrow-dash" aria-hidden="true"></span> 03 / AUSGEWÄHLTE ARBEITEN</p>
-              <h2 id="projects-title">Meine <span class="muted-title">Projekte.</span></h2>
-            </div>
-            <p class="section-caption">Ideen, die es vom Konzept in die Umsetzung geschafft haben.</p>
-          </div>
-          <article class="featured-project">
-            <div class="project-image-wrap">
-              <img
-                src="digital-nomad-map.png"
-                alt="Vorschau des Projekts Digital Nomad Map"
-                width="900"
-                height="640"
-                loading="lazy"
-              />
-              <span class="project-image-label">FEATURED PROJECT <span aria-hidden="true">↗</span></span>
-            </div>
-            <div class="project-info">
-              <div class="project-topline"><span>01 / EIGENES PROJEKT</span><span class="project-symbol" aria-hidden="true">↗</span></div>
-              <h3>Digital<br />Nomad Map<span class="accent-title">.</span></h3>
-              <p>Eine Karte für digitale Nomaden – um Orte zu entdecken und Inspiration für das Leben und Arbeiten unterwegs zu finden.</p>
-              <div class="project-divider" aria-hidden="true"></div>
-              <a class="project-link" href="https://www.digital-nomad-maps.de/" target="_blank" rel="noopener noreferrer">
-                Projekt ansehen <span aria-hidden="true">↗</span>
-              </a>
-            </div>
-          </article>
-          <div class="more-projects"><span>Weitere Ideen sind in Arbeit.</span><a href="https://github.com/Markus-Huckriede" target="_blank" rel="noopener noreferrer">Auf GitHub stöbern <span aria-hidden="true">↗</span></a></div>
-        </div>
-      </section>
-
-      <section class="section contact-section" id="kontakt" aria-labelledby="contact-title">
-        <div class="shell contact-inner">
-          <p class="eyebrow"><span class="eyebrow-dash" aria-hidden="true"></span> 04 / KONTAKT</p>
-          <h2 id="contact-title">Lass uns <span>reden.</span></h2>
-          <p>Eine Frage, eine Idee oder einfach Lust auf Austausch? Schreib mir gern.</p>
-          <a class="button button-primary contact-button" href="mailto:Markus.Huckriede@gmail.com">Nachricht schreiben <span aria-hidden="true">↗</span></a>
-          <div class="contact-links" aria-label="Weitere Kontaktmöglichkeiten">
-            <a href="https://github.com/Markus-Huckriede" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
-            <a href="https://www.linkedin.com/in/markus-huckriede/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
-            <a href="https://wa.me/491733790597" target="_blank" rel="noopener noreferrer">WhatsApp <span aria-hidden="true">↗</span></a>
-            <a href="mailto:Markus.Huckriede@gmail.com">E-Mail <span aria-hidden="true">↗</span></a>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="shell footer-inner">
-        <span>© <span>2026</span> Markus Huckriede</span>
-        <span>Mit Neugier gebaut. <span aria-hidden="true">✳</span></span>
-        <a href="#start">Zurück nach oben ↑</a>
+    <section class="section container" id="kontakt" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Kontakt</h2>
+      <div class="contact-links">
+        <a href="mailto:Markus.Huckriede@gmail.com">E-Mail <span aria-hidden="true">↗</span></a>
+        <a href="https://github.com/Markus-Huckriede" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        <a href="https://www.linkedin.com/in/markus-huckriede/" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a href="https://wa.me/491733790597" target="_blank" rel="noopener noreferrer">WhatsApp <span aria-hidden="true">↗</span></a>
       </div>
-    </footer>
-  </body>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">© 2026 Markus Huckriede</div>
+  </footer>
+</body>
 </html>
